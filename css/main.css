@@ -592,12 +592,86 @@ p {
 
 
 /*RESPONSIBILITY*/
+/*header*/
+@media screen and (max-width: 600px)
+{
+  .logo {
+    max-width: 110px;
+  }
+
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0px 5px;
+    margin-top: 1rem;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 0px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.small {
+  font-size: 5px;
+}
+.section-container p {
+  size: 9.41176470588235320px;
+  padding: 0 15px;
+}
+
+.header-container {
+    
+  width: 95%;
+  margin: 0 20px;
+  box-sizing: border-box;
+  padding: 0;
+  height: 100px;
+  position: absolute;
+  z-index: 20;
+  right: 0;
+}
+
+section {
+  vertical-align: middle;
+}
+
+}
+
 /*CONTACT FORM*/
 @media screen and (max-width: 600px){
 
-    .middle {
-      display: none;
-    }
+  .middle {
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border: 1px solid #fff;
+    border-radius: 25px;
+    box-shadow: inset 0 0 2px #fff;
+  }
+  
+  .mouse {
+    width: 24px;
+    height: 38px;
+    text-align: center;
+    margin-left: -1px;
+    cursor: pointer;
+  }
     
     #fp-nav {
         display: none;
@@ -606,9 +680,10 @@ p {
         text-align: center;
         max-width: 500px;
     }
+
     .wrapper .title h1 {
-        font-size: 17px;
-    }
+      font-size: 40px;
+  }
     .contact-form{
       flex-direction: column;
     }
