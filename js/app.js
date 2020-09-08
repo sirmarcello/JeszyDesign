@@ -17,16 +17,22 @@ $(document).ready(function() {
     navigation: true,
     navigationTooltips: ['Youtube', 'Facebook', 'Instagram', 'Linkedin', 'Ads & Brand Awarness', 'Brand Image', 'Brand Videos', 'Logo', 'Animated Cartoon Videos', 'Contact'],
     showActiveTooltip: true,
+    
+    afterLoad: function (Section, index) {    
+        if (Section.index == 8) {
+            $.fn.fullpage.moveSectionDown();
+        }
+   },
 
     //Scrolling
-    dragAndMove: true,
     verticalCentered: true,
 	});
 
 	//methods
     $.fn.fullpage.setAllowScrolling(false);
+
     
     $('.middle').on('click', function() {
         $.fn.fullpage.moveSectionDown();
     });
-});
+})

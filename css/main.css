@@ -434,50 +434,50 @@ input[type="button"]:focus {
 /*SECTION BACKGROUNG*/
 .s1
 {
-    background: url(/imgs/1.png);
+  background-image: url('/imgs/1.png');
 }
 
 .s2
 {
-    background: url(/imgs/2.png);
+  background-image: url('/imgs/2.png');
 }
 
 .s3
 {
-    background: url(/imgs/3.png);
+  background-image: url('/imgs/3.png');
 }
 
 .s4
 {
-    background: url(/imgs/4.png);
+  background-image: url('/imgs/4.png');
 }
 
 .s5
 {
-    background: url(/imgs/5.png);
+  background-image: url('/imgs/5.png');
 }
 
 .s6
 {
-    background: url(/imgs/6.png);
+  background-image: url('/imgs/6.png');
 }
 
 .s7
 {
-    background: url(/imgs/7.png);
+  background-image: url('/imgs/7.png');
 }
 
 .s8
 {
-    background: url(/imgs/8.png);
+  background-image: url('/imgs/8.png');
 }.s9
 {
-    background: url(/imgs/9.png);
+  background-image: url('/imgs/9.png');
 }
 
 .s10
 {
-    background: url(/imgs/10.png);
+  background-image: url('/imgs/10.png');
 }
 
 
@@ -587,14 +587,70 @@ p {
     font-family: "Cooper_Hevitt";
   }
 
+/*ABOUT US SECTION*/
+.parallax {
+  background-image: url('/imgs/1.png');
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  
+.aboutus {
+  background-color:red;
+  height:1000px;
+  font-size: 14px;
+}
+
+.aboutus h1 {
+  margin: 0;
+}
+
+.aboutus {
+  text-align: center;
+}
+
+/*FOOTER*/
+#section-footer {
+  background-color: #1c1d17;
+}
+#section-footer #footer-text
+{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+  padding: 20px 0;
+}
+#section-footer p
+{
+	text-align: center;
+}
+
+.socials {
+  float: right;
+}
+
+.socials li {
+  list-style: none;
+  display: inline-block;
+}
+
+.socials li a {
+  color: #73c7d5;
+  display: block;
+  font-size: 12px;
+  height: 16px;
+  line-height: 10px;
+  width: 45px;
+  text-align: center;
+}
 
 
 /*RESPONSIBILITY*/
-/*header*/
 @media screen and (max-width: 600px)
 {
+
   .logo {
     max-width: 110px;
   }
@@ -718,3 +774,43 @@ section {
         font-family: "Cooper_Hevitt";
       }
   }
+
+/*footer*/
+@media screen and (max-width: 600px){
+
+.fp-auto-height {
+  height: 200rem;
+}
+
+.copyright {
+    float: none;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.socials {
+  float: none;
+  text-align: center !important;
+  margin-right: 0px !important;
+}
+}
+
+  /*Animation*/
+section > .fp-tableCell p {
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+section.active > .fp-tableCell p {
+	opacity: 1;
+}
+
+section.active > .fp-tableCell p {
+	transition-delay: .33s;
+}
+
+section.active > .fp-tableCell p + p {
+	transition-delay: .66s;
+}

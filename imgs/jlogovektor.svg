@@ -1,58 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   viewBox="0 0 1122.52 793.70135"
-   height="793.70135"
-   width="1122.52"
-   xml:space="preserve"
-   id="svg2"
-   version="1.1"><metadata
-     id="metadata8"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-     id="defs6"><clipPath
-       id="clipPath36"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path34"
-         d="M 0,595.276 H 841.89 V 0 H 0 Z" /></clipPath></defs><g
-     transform="matrix(1.3333333,0,0,-1.3333333,0,793.70133)"
-     id="g10"><text
-       id="text14"
-       style="font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:148.6867981px;font-family:'Futura BdCn BT';-inkscape-font-specification:FuturaBT-BoldCondensed;writing-mode:lr-tb;fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(1,0,0,-0.97410328,372.6836,310.7705)"><tspan
-         id="tspan12"
-         y="0"
-         x="0 57.98785 128.01933 196.26657 271.05603">JESZY</tspan></text>
-<text
-       id="text20"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:80.23940277px;font-family:'Road Rage';-inkscape-font-specification:RoadRage;writing-mode:lr-tb;fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(1,0,0,-0.97409876,403.8418,236.7393)"><tspan
-         id="tspan16"
-         y="0"
-         x="0">D</tspan><tspan
-         id="tspan18"
-         y="0"
-         x="57.772369 108.52379 156.98839 182.02307 233.53677">ESING</tspan></text>
-<g
-       transform="translate(201.4004,392.778)"
-       id="g22"><path
-         id="path24"
-         style="fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="M 0,0 V 21.624 H -52.743 V 1.081 0 -159.256 -180.88 H -29.008 0 v 21.624 h -29.008 l 0,159.256 z" /></g><g
-       transform="translate(300.8989,414.5334)"
-       id="g26"><path
-         id="path28"
-         style="fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="M 0,0 V -21.625 H 29.008 V -180.881 H 0 v -21.624 h 29.008 23.734 v 21.624 159.256 1.082 l 0,20.543 z" /></g><g
-       id="g30"><g
-         clip-path="url(#clipPath36)"
-         id="g32"><g
-           transform="translate(218.335,409.0144)"
-           id="g38"><path
-             id="path40"
-             style="fill:#72c7d5;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             d="m 0,0 0.005,2.571 65.414,-0.005 -1.068,-111.434 -0.583,-26.396 c 0,-13.939 -3.152,-23.728 -10.567,-31.884 -7.663,-8.43 -21.215,-17.891 -38.919,-26.603 l -5.942,9.734 -3.545,5.398 c 13.299,6.653 22.336,13.131 28.766,18.976 6.117,5.561 9.639,7.601 10.445,24.643 v 23.932 l -1.079,97.686 H 0.008 Z" /></g></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="841.89px" height="595.276px" viewBox="0 0 841.89 595.276" enable-background="new 0 0 841.89 595.276"
+	 xml:space="preserve">
+<g>
+	<path fill="#FFFFFF" d="M404.501,186.886h12.935v65.321c0,25.925-13.084,33.892-30.331,33.892c-4.758,0-10.556-1.014-13.827-2.317
+		l1.933-10.284c2.677,1.014,6.542,1.883,10.854,1.883c11.597,0,18.437-5.069,18.437-24.188V186.886z"/>
+	<path fill="#FFFFFF" d="M502.038,238.737h-38.954v35.195h43.415v10.573h-56.351v-97.62h54.12v10.573h-41.185v30.851h38.954V238.737
+		z"/>
+	<path fill="#FFFFFF" d="M532.52,269.153c5.799,3.476,14.273,6.373,23.194,6.373c13.232,0,20.964-6.807,20.964-16.656
+		c0-9.125-5.353-14.338-18.883-19.408c-16.354-5.649-26.465-13.904-26.465-27.664c0-15.208,12.936-26.505,32.412-26.505
+		c10.26,0,17.693,2.317,22.154,4.779l-3.568,10.284c-3.271-1.738-9.962-4.635-19.031-4.635c-13.679,0-18.883,7.966-18.883,14.628
+		c0,9.125,6.096,13.615,19.924,18.829c16.949,6.373,25.572,14.339,25.572,28.678c0,15.063-11.448,28.098-35.088,28.098
+		c-9.665,0-20.221-2.752-25.574-6.228L532.52,269.153z"/>
+	<path fill="#FFFFFF" d="M611.918,277.119l55.606-79.226v-0.435h-50.849v-10.573h67.649v7.676l-55.31,78.936v0.435h56.053v10.573
+		h-73.15V277.119z"/>
+	<path fill="#FFFFFF" d="M734.285,284.505v-41.423l-31.67-56.196h14.72l14.125,26.939c3.865,7.387,6.839,13.325,9.962,20.132h0.297
+		c2.825-6.373,6.244-12.746,10.11-20.132l14.422-26.939h14.72l-33.602,56.052v41.568H734.285z"/>
+</g>
+<text transform="matrix(1.0266 0 0 1 403.8418 358.5366)" fill="#6CC5D4" font-family="'RoadRage'" font-size="78.1611">D</text>
+<g>
+	<path fill="#FFFFFF" d="M495.719,333.839h-21.024v18.992h23.432v5.705h-30.413V305.86h29.21v5.705h-22.229v16.647h21.024V333.839z"
+		/>
+	<path fill="#FFFFFF" d="M502.856,350.252c3.13,1.875,7.704,3.438,12.519,3.438c7.142,0,11.314-3.673,11.314-8.988
+		c0-4.923-2.889-7.737-10.191-10.473c-8.827-3.048-14.283-7.503-14.283-14.928c0-8.206,6.981-14.302,17.493-14.302
+		c5.537,0,9.55,1.25,11.957,2.579l-1.926,5.549c-1.766-0.938-5.377-2.501-10.271-2.501c-7.383,0-10.191,4.299-10.191,7.894
+		c0,4.924,3.29,7.347,10.753,10.16c9.147,3.438,13.802,7.737,13.802,15.475c0,8.128-6.179,15.162-18.938,15.162
+		c-5.216,0-10.914-1.484-13.803-3.36L502.856,350.252z"/>
+	<path fill="#FFFFFF" d="M550.359,305.86v52.677h-6.981V305.86H550.359z"/>
+	<path fill="#FFFFFF" d="M562.555,358.537V305.86h7.623l17.334,26.651c4.012,6.174,7.142,11.723,9.709,17.115l0.161-0.078
+		c-0.643-7.033-0.803-13.442-0.803-21.648v-22.04h6.58v52.677h-7.062l-17.173-26.729c-3.771-5.861-7.383-11.879-10.111-17.585
+		l-0.24,0.078c0.401,6.644,0.562,12.974,0.562,21.728v22.509H562.555z"/>
+	<path fill="#FFFFFF" d="M656.518,356.192c-3.129,1.094-9.309,2.892-16.61,2.892c-8.186,0-14.926-2.032-20.223-6.956
+		c-4.654-4.376-7.543-11.41-7.543-19.616c0.08-15.71,11.154-27.198,29.29-27.198c6.259,0,11.154,1.328,13.481,2.423l-1.686,5.549
+		c-2.889-1.251-6.5-2.267-11.956-2.267c-13.161,0-21.747,7.972-21.747,21.18c0,13.365,8.266,21.259,20.864,21.259
+		c4.573,0,7.703-0.625,9.309-1.407V336.34h-10.994v-5.471h17.814V356.192z"/>
+</g>
+<polygon fill="#FFFFFF" points="201.4,202.498 201.4,180.874 148.657,180.874 148.657,201.417 148.657,202.498 148.657,361.753 
+	148.657,383.377 172.393,383.377 201.4,383.377 201.4,361.753 172.393,361.753 172.393,202.498 "/>
+<polygon fill="#FFFFFF" points="300.899,180.743 300.899,202.368 329.907,202.368 329.907,361.624 300.899,361.624 300.899,383.248 
+	329.907,383.248 353.641,383.248 353.641,361.624 353.641,202.368 353.641,201.286 353.641,180.743 "/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="841.89" height="595.276"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="#73C7D5" d="M218.335,186.261l0.005-2.571l65.414,0.005l-1.068,111.434l-0.583,26.396
+		c0,13.938-3.152,23.728-10.567,31.884c-7.663,8.43-21.215,17.891-38.919,26.603l-5.942-9.733l-3.545-5.398
+		c13.299-6.653,22.336-13.131,28.766-18.976c6.117-5.562,9.639-7.602,10.445-24.644V297.33l-1.079-97.686h-42.919L218.335,186.261z"
+		/>
+</g>
+</svg>
