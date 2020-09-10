@@ -660,6 +660,7 @@ p {
   display: none;
   left: 0px;
   font-weight: 300;
+  visibility: hidden;
 }
 
 .cookie-button {
@@ -846,4 +847,40 @@ section.active > .fp-tableCell p {
 
 section.active > .fp-tableCell p + p {
 	transition-delay: .66s;
+}
+
+/*FOOTER*/
+@media screen and (max-width: 600px)
+{
+  #section-footer #footer-text
+  {
+	  width: 60%;
+	  height: 110px;
+    float: none;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .copyright {
+    font-size: 10px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+  }
+
+  .socials {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: none;
+    text-align: center !important;
+    margin-right: 0px !important;
+    
+  }
+  
+#section-footer p
+  {
+	  text-align: center;
+  }
+
 }
