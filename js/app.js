@@ -29,7 +29,7 @@ $(document).ready(function() {
 	});
 
 	//methods
-    $.fn.fullpage.setAllowScrolling(false);
+    $.fn.fullpage.setAllowScrolling(true);
 
     
     $('.middle').on('click', function() {
