@@ -12,6 +12,22 @@
 
     <!--SCRIPT-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/vendors/easings.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script type="text/javascript">
+        function sendEmail() {
+            Email.send({
+                SecureToken : "417a5006-5702-4b7f-9cdc-85652c96f08c",
+                To : "marcelloworld1@gmail.com",
+                From : "marcellobud94@gmail.com",
+                Subject : "This is the subject",
+                Body : "And this is the body"
+            }).then(
+                message => alert("message sent")
+              
+            );
+        }
+    </script>
 
     <!--FONTS-->
     <style> 
@@ -48,11 +64,19 @@
     <!--LOGO AND NAV BAR-->
     <div class="header-container" data-anchor="section1">
         <header>
-            <a href="index.html"><img class="logo" src="imgs/jlogovektor.svg" alt="logo"></a>
+            <a href="index.html"><img class="logo" src="imgs/LOGOvektor.svg" alt="logo"></a>
             <a class="btn" href="about.html">About Us</a>         
         </header>
     </div>
     <section id="fullpage">
+        <section class="section" style="background-color: #262a2b;">
+            <div class="section-container clapat-caption">
+                <img class="homepage-logo" src="imgs/LOGOvektor.svg" alt="logo">
+                <div class="middle">
+                    <div class="mouse"></div>
+                </div>
+            </div>
+        </section>
         <section class="section s1">
             <div class="section-container clapat-caption">
                 <h1><span style="color:#73c7d5">Y</span>OUTUBE</h1>
@@ -213,7 +237,7 @@
               </div>
               <div class="msg">
                 <textarea placeholder="Message"></textarea>
-                <button type="submit" name="submit" class="btn">send</button>
+                <input type="button" onclick="sendEmail()" class="btn" value="Send"></input>
             </form>
               </div>
             </div>
@@ -221,7 +245,6 @@
         </section>
         <section class="section fp-auto-height" id="section-footer">
 				<div id="footer-text">
-                    
 					<span class="copyright" style="color: #73c7d5; font-size: 12px">© 2020
                         JEZD Design Studio Ltd. | International House 24 | Holborn Viaduct London | EC1A 2BN | United Kingdom​ | Tel: +447751185690 |​ Email: info@jeszydesign.com | <a style="color: #73c7d5" href="/download/PrivacyPolicy.pdf" download="PrivacyPolicy">Privacy Policy</a> </span>
                 <ul class="socials">
@@ -233,10 +256,10 @@
                 </div>
         </section>
     </section>
-    <div id="cookie-law-info-bar" style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);font-family: inherit;bottom: 0px;position: fixed;display: block;opacity: 1;">
-        <span>This website uses cookies to ensure you get the best experience on our website. <a style="color: #73c7d5" href="/download/CookiePolicy.pdf" download="CookiePolicy">Cookie Policy</a> <a</span>
-        <a role="button" tabindex="0" class="cookie-button">ACCEPT</a>
-    </div>
+    <div class="cookie-law-info-bar" style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);font-family: inherit;bottom: 0px;position: fixed;display: block;opacity: 1;">
+    <span>This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish.</span>
+    <button class="cookie-button" onclick="AcceptCookie">ACCEPT</button>
+  </div>
 
     <!--<script>
         var menu = document.getElementById('menu');
@@ -255,10 +278,12 @@
     </script> -->
 
     <!--SCRIPT-->
+    <script src="/js-cookie/src/js.cookie.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/vendors/scrolloverflow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/cookiehandler.js"></script>
     <script src="js/script.js"></script>
 
 </body>

@@ -281,7 +281,7 @@ ul {
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 240px;
 }
 .header-container {
     
@@ -311,6 +311,10 @@ header {
     text-align: center;
     padding: .8em 1.2em;
     
+}
+
+.homepage-logo {
+  max-width: 1000px;
 }
 
 /*Button*/
@@ -517,6 +521,19 @@ p {
 }
 
 /*CONTACT FORM*/
+.wrapper-contact-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1000px;
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
 .wrapper{
     position: absolute;
     top: 50%;
@@ -590,7 +607,7 @@ p {
 /*ABOUT US SECTION*/
 .parallax {
   background-image: url('/imgs/1.png');
-  min-height: 500px; 
+  min-height: 400px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -598,13 +615,26 @@ p {
 }
 
 .aboutus {
-  background-color:red;
-  height:1000px;
+  background-color:#262a2b;
+  height:500px;
   font-size: 14px;
 }
 
 .aboutus h1 {
   margin: 0;
+  padding: 30px;
+}
+
+.aboutus p {
+  font-family: "Cooper_Hevitt";
+  font-size: 14px!important;
+  font-weight: 600!important;
+  letter-spacing: 3px!important;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.8em;
+  text-shadow: 1px 1px 1px rgba(28,29,23,0.6);
+  max-width: 1000px;
 }
 
 .aboutus {
@@ -647,7 +677,7 @@ p {
 }
 
 /*Cookie info bar*/
-#cookie-law-info-bar {
+.cookie-law-info-bar {
   font-size: 12pt;
   margin: 0 auto;
   padding: 13px 10px;
@@ -655,12 +685,16 @@ p {
   text-align: center;
   box-sizing: border-box;
   width: 100%;
-  z-index: 9999;
+  z-index: -100;
   box-shadow: rgba(0,0,0,.5) 0px 5px 50px;
   display: none;
   left: 0px;
   font-weight: 300;
-  visibility: hidden;
+  
+}
+
+.cookie-law-info-bar.active {
+  z-index: 9999;
 }
 
 .cookie-button {
@@ -684,9 +718,12 @@ vertical-align: middle;
 /*RESPONSIBILITY*/
 @media screen and (max-width: 600px)
 {
+  .homepage-logo {
+    max-width: 300px;
+  }
 
   .logo {
-    max-width: 110px;
+    max-width: 140px;
   }
 
   .btn {
@@ -694,7 +731,7 @@ vertical-align: middle;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 8px;
+    font-size: 7px;
     text-transform: uppercase;
     letter-spacing: 1px;
     height: 3rem;
@@ -715,8 +752,8 @@ h1 {
   font-size: 40px;
 }
 
-.small {
-  font-size: 5px;
+p {
+  font-size: 10px!important;
 }
 .section-container p {
   size: 9.41176470588235320px;
@@ -741,6 +778,70 @@ section {
 
 }
 
+@media screen and (max-width: 600px)
+{
+  .parallax {
+    min-height: 200px;
+    
+}
+  .aboutus {
+    background-color:#262a2b;
+    height:700px;
+    font-size: 14px;
+  }
+  
+  .aboutus h1 {
+    margin: 0;
+    padding: 30px;
+  }
+  
+  .aboutus p {
+    font-family: "Cooper_Hevitt";
+    font-size: 10px!important;
+    font-weight: 600!important;
+    letter-spacing: 3px!important;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 2.0em;
+    text-shadow: 1px 1px 1px rgba(28,29,23,0.6);
+    padding: 0 15px;
+  }
+}
+
+/*Cookie info bar responsibility*/
+@media screen and (max-width: 600px)
+{
+
+.cookie-law-info-bar {
+  font-size: 9pt;
+  margin: 0 auto;
+  padding: 13px 10px;
+  position: absolute;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: rgba(0,0,0,.5) 0px 5px 50px;
+  display: none;
+  left: 0px;
+  font-weight: 300;
+  
+}
+
+.cookie-button {
+  display: inline-block;
+  margin: 5px;
+  color: rgb(255, 255, 255);
+  background-color: #73c7d5;
+  cursor: pointer;
+  padding: 10px 16px 10px;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 9px;
+
+}
+}
+
 /*CONTACT FORM*/
 @media screen and (max-width: 600px){
 
@@ -756,8 +857,8 @@ section {
   }
   
   .mouse {
-    width: 24px;
-    height: 38px;
+    width: 20px;
+    height: 30px;
     text-align: center;
     margin-left: -1px;
     cursor: pointer;
@@ -766,9 +867,17 @@ section {
     #fp-nav {
         display: none;
     }
+
+    .wrapper-contact-page {
+      text-align: center;
+        width: 80%;
+        transform: translate(-50%, -59%);
+  }
+
     .wrapper {
         text-align: center;
-        width: 80%
+        width: 80%;
+        transform: translate(-50%, -35%);
     }
 
     .wrapper .title h1 {

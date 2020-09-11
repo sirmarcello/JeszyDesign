@@ -15,15 +15,9 @@ $(document).ready(function() {
     verticalCentered:true,
 	css3:true,
     navigation: true,
-    navigationTooltips: ['Youtube', 'Facebook', 'Instagram', 'Linkedin', 'Ads & Brand Awarness', 'Brand Image', 'Brand Videos', 'Logo', 'Animated Cartoon Videos', 'Contact'],
+    navigationTooltips: ['Home','Youtube', 'Facebook', 'Instagram', 'Linkedin', 'Ads & Brand Awarness', 'Brand Image', 'Brand Videos', 'Logo', 'Animated Cartoon Videos', 'Contact'],
     showActiveTooltip: true,
     
-    afterLoad: function (Section, index) {    
-        if (Section.index == 8) {
-            $.fn.fullpage.moveSectionDown();
-        }
-   },
-
     //Scrolling
     verticalCentered: true,
 	});
