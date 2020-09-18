@@ -436,6 +436,9 @@ input[type="button"]:focus {
 
 
 /*SECTION BACKGROUNG*/
+.s0 {
+  background-image: url('/imgs/home/6.png');
+}
 .s1
 {
   background-image: url('/imgs/1.png');
@@ -820,12 +823,16 @@ section {
   text-align: center;
   box-sizing: border-box;
   width: 100%;
-  z-index: 9999;
+  z-index: -100;
   box-shadow: rgba(0,0,0,.5) 0px 5px 50px;
   display: none;
   left: 0px;
   font-weight: 300;
   
+}
+
+.cookie-law-info-bar.active {
+  z-index: 9999;
 }
 
 .cookie-button {
