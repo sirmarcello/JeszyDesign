@@ -13,6 +13,51 @@
     <!--SCRIPT-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/vendors/easings.min.js"></script>
 
+    <script type="text/javascript">
+
+      function ValidateEmail(mail) 
+      {
+          if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(mail))
+      {
+          return (true)
+      } 
+          return (false)
+      }
+  
+          function sendEmail() {
+  
+          var name = document.getElementById('name').value;
+          var mailSubject = document.getElementById('subject').value;
+          var phone = document.getElementById('phone').value;
+          var email = document.getElementById('email').value;
+          var message = document.getElementById('message').value;
+  
+          let finalMessage = "Dear JeszyDesign!" + "\n\n" + message + "\n\n" + "Thanks, " + name + "\n" + "Phone number: " + phone;
+  
+          if(!ValidateEmail(email))
+          {
+              alert("You have entered an invalid email address!");
+              return;
+          }
+  
+          if(name.length === 0 || mailSubject.length === 0 || message.length === 0)
+          {
+              alert("Something is empty. Fill all.");
+              return;
+          }
+              Email.send({
+                  SecureToken : "b53655a3-d5af-497f-860f-33b1d81c0450",
+                  To : "demo@jeszydesign.com",
+                  From : email,
+                  Subject : mailSubject,
+                  Body : finalMessage
+              }).then(
+                  message => alert("message sent")
+                
+              );
+          }
+      </script>
+
     <!--FONTS-->
     <style> 
         @font-face {
@@ -47,7 +92,7 @@
     </div>
     <div class="header-container">
       <header>
-          <img class="logo" src="imgs/LOGOvektor.svg" alt="logo">
+        <a href="index.html"><img class="logo" src="imgs/LOGOvektor.svg" alt="logo"></a>
           <a class="btn" href="./index.html">Home</a>         
       </header>
     </div>
@@ -58,14 +103,14 @@
         <div class="contact-form">
           <div class="input-fields">
          <form action="php/email.php">
-            <input type="text" class="input" placeholder="Name">
-            <input type="text" class="input" placeholder="Email Address">
-            <input type="text" class="input" placeholder="Phone">
-            <input type="text" class="input" placeholder="Subject">
+          <input id="name" type="text" class="input" placeholder="Name">
+          <input id="email" type="text" class="input" placeholder="Email Address">
+          <input id="phone" type="text" class="input" placeholder="Phone">
+          <input id="subject" type="text" class="input" placeholder="Subject">
           </div>
           <div class="msg">
-            <textarea placeholder="Message"></textarea>
-            <button type="submit" name="submit" class="btn">send</button>
+            <textarea id="message" placeholder="Message"></textarea>
+            <input type="button" onclick="sendEmail()" class="btn" value="submit"></input>
         </form>
           </div>
         </div>
@@ -90,5 +135,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.js"></script>
     <script src="js/app.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>

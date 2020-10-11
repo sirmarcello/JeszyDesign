@@ -888,7 +888,7 @@ section {
     }
 
     .wrapper .title h1 {
-      font-size: 40px;
+      font-size: 30px;
   }
     .contact-form{
       flex-direction: column;
@@ -938,6 +938,7 @@ section {
     text-align: center;
     width: 100%;
     margin-left: 0px;
+    font-size: 10px !important;
 }
 
 .socials {
